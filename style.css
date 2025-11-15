@@ -6,28 +6,30 @@
 
 body {
     font-family: "Poppins", Arial, sans-serif;
-    background: #F4F9FF;
+    background: #F5F7FA;
     color: #2d2278;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 .cabecalho {
     background: #dfe7eb; /
     color: #2d2278; 
-    padding: 2rem;
+    padding: 1.5 rem 2rem;
     border-bottom: 3px solid #2d2278;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .navegacao {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.6rem;
 }
 
 .logo {
-    font-size: 2.5rem;      
-    font-weight: bold;
-    text-align: center;  
+    font-size: 2.4rem;      
+    font-weight: 700;
+    text-align: center; 
+    letter-spacing: 1px;
     width: 100%;        
 }
 
@@ -36,12 +38,13 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding: 0;
 }
 
 .menu a {
     color: #2d2278;
     text-decoration: none;
-    padding: 1rem 1rem;
+    padding: 8rem 1.2rem;
     border-radius: 8px;
     transition: 0.3s;
     font-weight: 500;
@@ -50,6 +53,8 @@ body {
 .menu a:hover {
     background: #a0c8df;
     color: #2d2278;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
 }
 
 .conteudo-principal {
@@ -61,15 +66,17 @@ body {
 
 .artigo, 
 .sidebar {
-    padding: 1.5rem;
-    border-radius: 10px;
-    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    background: #FFFFFF;
     border: 1px solid #d2d8e2;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.04);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 .artigo h1 {
     margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.3;
     color: #2d2278;
 }
 
@@ -117,3 +124,4 @@ body {
         gap: 2.5rem;
     }
 }
+
